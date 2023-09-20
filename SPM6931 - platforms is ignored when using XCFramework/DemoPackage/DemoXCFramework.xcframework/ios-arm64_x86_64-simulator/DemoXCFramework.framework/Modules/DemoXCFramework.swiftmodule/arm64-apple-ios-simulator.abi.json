@@ -1,0 +1,46 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoXCFramework"
+      },
+      {
+        "kind": "Function",
+        "name": "demo",
+        "printedName": "demo()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15DemoXCFramework4demoyyF",
+        "mangledName": "$s15DemoXCFramework4demoyyF",
+        "moduleName": "DemoXCFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mkalmes\/Desktop\/DemoXCFramework\/DemoXCFramework\/Demo.swift",
+      "kind": "StringLiteral",
+      "offset": 110,
+      "length": 48,
+      "value": "\"^[They](referentConcept: 1) said 'Hello 🌍'.\""
+    }
+  ]
+}
